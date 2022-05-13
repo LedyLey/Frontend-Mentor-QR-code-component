@@ -42,7 +42,7 @@ a{
 @media (max-width:375px) {
     .qr {
             width: 42%;
-            min-width: min-content;
+            min-width: 100vh;
             margin-top: 18.5%;
             height: 23%;
             padding: 2%;
