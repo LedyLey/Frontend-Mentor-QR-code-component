@@ -40,18 +40,19 @@ a{
     text-decoration: none;
 }
 @media (max-width:375px) {
+    body{
+        font-size: 8px;
+        min-height: 100vh;
+    }
     .qr {
             width: 42%;
-            min-width: 100vh;
+            min-width: min-content;
             margin-top: 18.5%;
             height: 23%;
             padding: 2%;
     }
     h1{
         font-size: 13px;
-    }
-    body{
-        font-size: 8px;
     }
     .attribution{
         font-size: 6.9px;   
