@@ -1,6 +1,7 @@
 body{
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
     display: flex;  
     justify-content: center; 
     align-items: center; 
@@ -9,8 +10,7 @@ body{
 }
 .qr{
     width: 18.2%;
-    min-width: 30vh;
-    margin: auto; 
+    min-width: 30vh; 
     margin-top: 8.5%; 
     border: none;
     border-radius: 5%;
